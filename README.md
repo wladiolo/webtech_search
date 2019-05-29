@@ -16,7 +16,7 @@ First do a scan with **webtech**
 ```
 webtech --urls-file=urls_to_scan.list --json >> output.json
 ```
-Then search for a specific technology with **webtech_serach** 
+Then search for a specific technology with **webtech_search** 
 ```
 webtech_search.sh output.json woRDpr
 Site: https://www.example.com Technology: Wordpress Version: 5.1.2
