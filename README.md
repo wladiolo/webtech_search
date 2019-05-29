@@ -18,7 +18,7 @@ Where *options* are:
 ## Example
 First do a scan with **webtech**
 ```
-webtech --urls-file=urls_to_scan.list --json >> output.json
+webtech --urls-file=urls_to_scan.list --json > output.json
 ```
 Then search for a specific technology with **webtech_search** 
 ```
