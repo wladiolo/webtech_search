@@ -13,6 +13,7 @@ webtech_search.sh file-to-parse options string-to-search
 Where *options* are:
 
 --tech: search in the *tech* array
+
 --head: search in the *headers* array
 
 ## Example
@@ -29,7 +30,7 @@ Site: https://www.other.com Technology: WordPress Version: 3.1.1
 Or search for a specific header:
 ```
 webtech_search.sh output.json -head tRAc
-Site: https://www.example.com Header: X-Cloud-Trace-Context
+Site: https://www.example.com Header: X-Cloud-Trace-Context Value: 7be84e882a77baabdd9d9f7e49781fee
 ```
 
 ## Thanks to
